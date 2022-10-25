@@ -52,7 +52,6 @@ export const sendCartData = (cart) => {
           items: cart.items,
           totalQuantity: cart.totalQuantity,
         }),
-        // body: JSON.stringify(cart),
       });
 
       if (!response.ok) {
